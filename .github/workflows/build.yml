@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Harden Runner
-      uses: step-security/harden-runner@int 
+      uses: step-security/harden-runner@int #  test
       with:
         egress-policy: audit
     - name: Checkout repository
